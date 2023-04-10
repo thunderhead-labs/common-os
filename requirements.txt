@@ -1,0 +1,12 @@
+pandas~=1.5.2
+pexpect==4.8.0
+psycopg2_binary==2.9.3
+requests~=2.28.1
+setuptools~=65.5.0
+tenacity~=8.1.0
+hexbytes~=0.3.0
+cryptography~=38.0.4
+pycoingecko~=3.1.0
+SQLAlchemy~=1.4.42
+pika~=1.2.0
+logaugment~=0.1.3
