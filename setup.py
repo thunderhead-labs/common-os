@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="common",
@@ -6,7 +6,7 @@ setup(
     description="Common package for thunderhead repos",
     url="https://github.com/thunderhead-labs/common-os",
     author="claps-mvp",
-    packages=["common"],
+    packages=find_packages(),
     install_requires=[
         "pexpect",
         "psycopg2-binary",
